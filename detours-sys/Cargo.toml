@@ -43,4 +43,4 @@ features = [
 
 [build-dependencies]
 cc = "1.0.37"
-bindgen = { version = "0.56.0", optional = true}
+bindgen = { version = "0.54.0", optional = true}
