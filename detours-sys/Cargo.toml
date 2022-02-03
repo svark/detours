@@ -1,7 +1,7 @@
 [package]
 name = "detours-sys"
-version = "0.1.2"
-authors = ["Diana <5275194+DianaNites@users.noreply.github.com>"]
+version = "0.1.3"
+authors = ["Diana <5275194+DianaNites@users.noreply.github.com>", "svark"]
 edition = "2018"
 links = "detours"
 # Package stuff
@@ -34,7 +34,7 @@ buildtime_bindgen = ["bindgen"]
 [dependencies]
 
 [dev-dependencies.winapi]
-version = "0.3.7"
+version = "0.3.9"
 features = [
     "synchapi",
     "processthreadsapi",
@@ -42,5 +42,5 @@ features = [
 ]
 
 [build-dependencies]
-cc = "1.0.37"
-bindgen = { version = "0.54.0", optional = true}
+cc = "1.0.72"
+bindgen = { version = "0.59.2", optional = true}
